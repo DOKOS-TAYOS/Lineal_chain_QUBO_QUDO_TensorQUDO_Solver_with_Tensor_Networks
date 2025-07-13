@@ -21,7 +21,7 @@ The code implements tensor network algorithms to solve tridiagonal QUBO (Quadrat
 
 ## 🧠 Key Features
 
-* **Quantum-Inspired Approach**: The algorithm simulates imaginary-time evolution of a quantum state using tensor networks, allowing for efficient extraction of the optimal solution via partial trace.
+* **Quantum-Inspired Approach**: The algorithm simulates imaginary-time evolution of a quantum state using tensor networks, allowing for efficient extraction of the optimal solution via half partial trace.
 * **Support for Multiple Optimization Classes**:
 
   * **QUBO**: Binary variables, quadratic cost function, tridiagonal structure.
@@ -29,8 +29,8 @@ The code implements tensor network algorithms to solve tridiagonal QUBO (Quadrat
   * **Tensor QUDO**: Cost function defined via a position-dependent tensor.
 * **Polynomial-Time Execution**:
 
-  * QUBO: $O(N^2)$ complexity
-  * QUDO and Tensor QUDO: $O(N^2 D^2)$ complexity
+  * QUBO: $O(N)$ complexity
+  * QUDO and Tensor QUDO: $O(N D^2)$ complexity
 * **Degeneracy Handling**: The algorithm is robust to degenerate ground states, and multiple optimal solutions can be extracted.
 * **Explicit Equation**: Provides a closed-form tensor network contraction equation for each solution component.
 * **Efficient Contractions**: Optimized contraction using MPO-like structure, including the Humbucker method for phase-cancelled state filtering.
