@@ -10,6 +10,8 @@ This repository provides the implementation of the algorithms described in the p
 
 The code implements tensor network algorithms to solve tridiagonal QUBO (Quadratic Unconstrained Binary Optimization), QUDO (Quadratic Unconstrained Discrete Optimization), and Tensor QUDO problems with nearest-neighbor interactions in a 1D chain.
 
+An interactive version is available in the webpage https://lineal-chain-qubo-qudo-with-tensor-networks.streamlit.app/
+
 ---
 
 ## 📘 Contents
